@@ -1,0 +1,14 @@
+.wrap {
+    padding: 10px 0 30px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px;
+    
+}
+
+.stars .react-stars-wrapper:focus {
+    outline: none;
+}

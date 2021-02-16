@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Navtop from './Components/Navtop/Navtop';
+import Slider from './Components/Carousel/Carousel';
+import FormFeedback from './Components/Form/Feedback';
+// import QrScanner from './Components/QrScanner/QrScanner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navtop fixed="top"/>    
+      <Slider /> 
+      {/* <QrScanner /> */}
+      <FormFeedback />
     </div>
   );
 }
