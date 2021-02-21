@@ -3,3 +3,9 @@
     flex-direction: column;
     align-items: center;
 }
+.object {
+    padding-bottom: 1rem;
+}
+.object div {
+    padding-bottom: 8px;
+}

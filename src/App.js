@@ -1,16 +1,18 @@
 import './App.css';
 import Navtop from './Components/Navtop/Navtop';
-import Slider from './Components/Carousel/Carousel';
-import FormFeedback from './Components/Form/Feedback';
-// import QrScanner from './Components/QrScanner/QrScanner';
+import Slider from './Components/Slider/Slider';
+import Rating from './Components/Rating/Rating';
+import Navtabs from './Components/Navtabs/Navtabs';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div>
-      <Navtop fixed="top"/>    
+      <Navtop />    
       <Slider /> 
-      {/* <QrScanner /> */}
-      <FormFeedback />
+      <Navtabs />
+      <Rating />
+      <Footer />
     </div>
   );
 }

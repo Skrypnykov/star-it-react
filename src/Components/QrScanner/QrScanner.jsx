@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import classes from './QrScanner.module.css';
 import QrReader from 'react-qr-reader';
 
+var timeInMs = Date.now();
+
 class QrScanner extends Component {
   state = {
     result: 'No result'
@@ -20,6 +22,21 @@ class QrScanner extends Component {
   render() {
     return (
         <div className="content-wrapper">
+            <div className={classes.object}>
+              <div className="name">
+              <p>Name: <span></span></p>
+              </div>
+              <div className="address">
+                <p>Address: <span></span></p>
+              </div>
+              <div className="ticketWindow">
+                <p>Ticket window: <span></span></p>
+              </div>
+              <div className="time">
+                <p>Time: <span>{Date(timeInMs)}</span></p>
+              </div>
+
+            </div>
             <div className={classes.wrap}>
                 <QrReader
                 delay={300}

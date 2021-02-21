@@ -1,0 +1,20 @@
+.wrap {
+    padding: 20px 0 30px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase ;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+.buttonSend {
+    margin: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

@@ -1,4 +1,7 @@
 .navBg {
-    background-color: #5cdb95;
-    //box-shadow: 0 0 5px rgba(0,0,0,0.3);
-  }
+  background-color: #5cdb95;
+}
+.navLogo {
+  font-family: 'Reggae One', cursive;
+  font-size: 1.5em;
+}
