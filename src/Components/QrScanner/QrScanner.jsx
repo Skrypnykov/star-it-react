@@ -35,7 +35,6 @@ class QrScanner extends Component {
               <div className="time">
                 <p>Time: <span>{Date(timeInMs)}</span></p>
               </div>
-
             </div>
             <div className={classes.wrap}>
                 <QrReader

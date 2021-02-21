@@ -12,7 +12,7 @@ const Navtabs = () => {
             <Tab className={classes.tab} eventKey="choose" title="Choose">            
                 <RegForm />
             </Tab>
-            <Tab className={classes.tab} eventKey="qrCode" title="QR-Code">
+            <Tab className={`${classes.tab} ${classes.hidden}`} eventKey="qrCode" title="QR-Code">
                 <QRScanner />   
             </Tab>
             <Tab className={classes.tab} eventKey="addNew" title="Add new">
