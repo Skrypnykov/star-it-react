@@ -24,7 +24,7 @@ const myStars = {
 
 const Rating = () => {
     return (
-        <div>
+        <div className={classes.rating}>
             <Form className="content-wrapper">
                 <div className={classes.wrap}>
                     <h3 className={classes.title}>Rating</h3>
