@@ -1,27 +1,30 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import slide1 from "./img/slide_1.jpg";
+import slide2 from "./img/slide_2.jpg";
+import slide3 from "./img/slide_3.jpg";
 
 const MySlider = () => {
     return (
-        <Carousel>
+      <Carousel>
         <Carousel.Item interval={1000}>
           <img
             className=""
-            src="https://www.storaenso.com/-/media/images/products/paperboard-materials/hero/book-store-2200x400.jpg"
+            src={slide1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={1000}>
           <img
             className=""
-            src="https://test.webnew.storaenso.com/-/media/Images/Sustainability/Hero/Customers-family-store-2200x400.jpg"
+            src={slide2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={1000}>
           <img
             className=""
-            src="https://www.storaenso.com/-/media/images/newsroom/news-items/hero/remote-work-1-2200x400.jpg"
+            src={slide3}
             alt="Third slide"
           />
         </Carousel.Item>

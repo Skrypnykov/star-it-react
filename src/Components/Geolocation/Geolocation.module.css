@@ -3,14 +3,24 @@
     flex-direction: column;
     align-items: center;
 }
+.location {
+    margin-top: 10px;
+}
+.location p:first-child {
+    margin-right: 10px;
+}
+.location p {
+    display: inline-block;
+}
+.location p span {
+    font-weight: 500;
+}
 
 @media (min-width: 376px) {
 
 }
 @media (min-width: 769px) {
-    .wrap {
-        display: none;
-    }
+
 }
 @media (min-width: 1281px) {
 

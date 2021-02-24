@@ -3,14 +3,23 @@
     flex-direction: column;
     align-items: center;
 }
+.object {
+    padding-bottom: 1rem;
+}
+.object div {
+    padding-bottom: 8px;
+}
+.data {
+    margin-left: 5px;
+    font-size: .95em;
+    font-weight: 500;
+}
 
 @media (min-width: 376px) {
 
 }
 @media (min-width: 769px) {
-    .wrap {
-        display: none;
-    }
+
 }
 @media (min-width: 1281px) {
 

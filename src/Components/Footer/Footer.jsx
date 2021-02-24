@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
                     <div className={classes.color}>
                         <span>Powered by</span>
-                        <a href="https://coreui.io"> BestApp</a>
+                        <a href="/"> BestApp</a>
                     </div>
                 </footer>
             </div>

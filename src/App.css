@@ -12,18 +12,6 @@
   margin: 0 auto;
 }
 
-.navBg {
-  background-color: #5cdb95;
-  padding: 5px 0;
-}
-.navLogo {
-  font-family: 'Reggae One', cursive;
-  font-size: 1.5em;
-}
-.navJoin {
-  font-weight: 700;
-}
-
 @media (min-width: 376px) {
   .content-wrapper {
     max-width: 1280px;

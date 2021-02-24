@@ -1,15 +1,15 @@
 import React from 'react';
-import classes from './Team.module.css';
+import classes from './Pricing.module.css';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 
-const MyTeam = () => {
+const OurPricing = () => {
     return (
         <div className="content-wrapper">
             <div className={classes.wrap}>
                 <CardDeck>
                     <Card>
-                        <Card.Img variant="top" src="https://cdna.artstation.com/p/assets/images/images/031/081/132/large/mario-parra-boolean-07.jpg?1602547202"/>
+                        <Card.Img variant="top" src="https://miro.medium.com/max/1200/1*GZtfpHMxf03765DlVaxohg.png"/>
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
                             <Card.Text>
@@ -19,7 +19,7 @@ const MyTeam = () => {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="https://i.vimeocdn.com/video/948355269.webp?mw=800&mh=450&q=70" />
+                        <Card.Img variant="top" src="https://cdn.hype.tech/2000x/file/2018/04/3/hype-ru-wholesale-pricing-0-1524643455-129.png" />
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
                             <Card.Text>
@@ -29,7 +29,7 @@ const MyTeam = () => {
                         </Card.Body>
                     </Card>
                     <Card>
-                        <Card.Img variant="top" src="https://i.ytimg.com/vi/1GiKdMBxzAg/maxresdefault.jpg" />
+                        <Card.Img variant="top" src="https://www.elegantthemes.com/blog/wp-content/uploads/2015/09/Pricing-Strategies-for-Business.jpg" />
                         <Card.Body>
                             <Card.Title>Card title</Card.Title>
                             <Card.Text>
@@ -45,4 +45,4 @@ const MyTeam = () => {
     );
 }
 
-export default MyTeam;
+export default OurPricing;
