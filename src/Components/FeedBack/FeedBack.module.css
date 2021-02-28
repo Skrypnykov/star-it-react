@@ -6,6 +6,9 @@
 
 }
 @media (min-width: 769px) {
+  .wrap {
+    padding: 0 100px;
+  }
   .tab.hidden {
     display: none;
   }

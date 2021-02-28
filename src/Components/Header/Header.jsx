@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Header.module.css';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-regular-svg-icons';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,13 +17,14 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/pricing">Pricing</Nav.Link>
-                            <Nav.Link href="/team">Team</Nav.Link>
-                            <Nav.Link href="/feedback">Feedback</Nav.Link>
+                            <NavLink className={classes.Link} to="/pricing" activeClassName={classes.activeLink}>Pricing</NavLink>
+                            <NavLink className={classes.Link} to="/team" activeClassName={classes.activeLink}>Team</NavLink>
+                            <NavLink className={classes.Link} to="/feedback" activeClassName={classes.activeLink}>Feedback</NavLink>
+                            <NavLink className={classes.Link} to="/dashboard" activeClassName={classes.activeLink}>Dashboard</NavLink>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/login">Sign in</Nav.Link>
-                            <Nav.Link href="/join" className={classes.nav_join}>Sign up</Nav.Link>
+                            <NavLink className={classes.Link} to="/login" activeClassName={classes.activeLink}>Sign in</NavLink>
+                            <NavLink className={classes.Link} to="/join" activeClassName={classes.activeLink}>Sign up</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

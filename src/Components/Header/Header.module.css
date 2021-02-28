@@ -1,17 +1,36 @@
 .nav_bg {
-    background-color: #5cdb95;
-    padding: 5px 0;
-  }
-  .nav_logo {
-    font-family: 'Reggae One', cursive;
-    font-size: 1.5em;
-  }
-  .nav_join {
-    font-weight: 700;
-  }
+  background-color: #5cdb95;
+  padding: 5px 0;
+}
+.nav_logo {
+  font-family: 'Reggae One', cursive;
+  font-size: 1.5em;
+  margin-right: 1.5rem;
+}
+
+.Link {
+  color: #379683;
+  font-size: .9em;
+  font-weight: 400;
+  padding-top: 5px ;
+}
+.Link:not(:last-child) {
+  padding-right: 15px;
+}
+.Link:hover {
+  text-decoration: none;
+  color: #05386b;
+}
+.activeLink {
+  color: #05386b;
+}
   
   @media (min-width: 376px) {
-  
+    .Link {
+      padding-top: 0;
+      font-size: 1.1em;
+      font-weight: 500;
+    } 
   }
   @media (min-width: 769px) {
   

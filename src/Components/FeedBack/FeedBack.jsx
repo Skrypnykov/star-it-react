@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from'./Navtabs.module.css';
+import classes from'./FeedBack.module.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import AddObject from '../AddObject/AddObject'
@@ -8,9 +8,9 @@ import Geolocation from '../Geolocation/Geolocation';
 import SelectObject from '../SelectObject/SelectObject';
 import Rating from '../Rating/Rating';
 
-const Navtabs = () => {
+const CustomerFeedback = () => {
     return (
-        <div>
+        <div className={classes.wrap}>
             <Tabs className="justify-content-center m-3" defaultActiveKey="qrCode" id="uncontrolled-tab-example" variant="pills">
                 <Tab className={classes.tab} eventKey="qrCode" title="Scan QR">            
                     <SelectObject />
@@ -29,4 +29,4 @@ const Navtabs = () => {
     );
 }
 
-export default Navtabs;
+export default CustomerFeedback;
