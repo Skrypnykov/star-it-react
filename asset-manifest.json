@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/star-it-react/static/css/main.2255e799.chunk.css",
-    "main.js": "/star-it-react/static/js/main.c16da5ea.chunk.js",
-    "main.js.map": "/star-it-react/static/js/main.c16da5ea.chunk.js.map",
+    "main.js": "/star-it-react/static/js/main.8ce95ade.chunk.js",
+    "main.js.map": "/star-it-react/static/js/main.8ce95ade.chunk.js.map",
     "runtime-main.js": "/star-it-react/static/js/runtime-main.bd57c50c.js",
     "runtime-main.js.map": "/star-it-react/static/js/runtime-main.bd57c50c.js.map",
     "static/css/2.150d169a.chunk.css": "/star-it-react/static/css/2.150d169a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.ed507780.chunk.js",
     "static/css/main.2255e799.chunk.css",
-    "static/js/main.c16da5ea.chunk.js"
+    "static/js/main.8ce95ade.chunk.js"
   ]
 }
