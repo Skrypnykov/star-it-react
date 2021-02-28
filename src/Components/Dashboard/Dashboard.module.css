@@ -1,12 +1,6 @@
 .wrap {
-    max-width: 375px;
-    margin: 3rem auto;
-    padding: 2rem 3rem;
-    border: 1px solid #eaecef;
-    background-color: #f6f8fa;
-    border-radius: 5px;
+    padding: 50px 20px;
 }
-
 .title {
     text-align: center;
     margin-bottom: 30px;
@@ -14,16 +8,19 @@
     font-weight: 400;
 }
 .buttonSend {
+    margin: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
 @media (min-width: 376px) {
-    
-}
-@media (min-width: 769px) {
 
 }
+@media (min-width: 769px) {
+    .wrap {
+        padding: 50px;
+    }
+}
 @media (min-width: 1281px) {
-    
+
 }

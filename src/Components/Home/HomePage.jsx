@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './HomePage.module.css';
-import Slider from '../Slider/Slider'
-import OurPricing from '../Pricing/Pricing';
+import Slider from './Slider/Slider'
+import OurPricing from '../../Components/Pricing/Pricing';
 
-const HomePage = () => {
+const Home = () => {
     return (
         <div className={classes.wrap}>
             <Slider />
@@ -12,4 +12,4 @@ const HomePage = () => {
     );
 }
 
-export default HomePage;
+export default Home;

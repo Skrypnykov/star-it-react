@@ -7,21 +7,21 @@ import slide3 from "./img/slide_3.jpg";
 const MySlider = () => {
     return (
       <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={4000}>
           <img
             className=""
             src={slide1}
             alt="First slide"
           />
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={4000}>
           <img
             className=""
             src={slide2}
             alt="Second slide"
           />
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={4000}>
           <img
             className=""
             src={slide3}

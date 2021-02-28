@@ -9,7 +9,7 @@
   .wrap {
     padding: 0 100px;
   }
-  .tab.hidden {
+  .tab .hidden {
     display: none;
   }
 }
