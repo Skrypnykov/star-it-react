@@ -19,4 +19,8 @@
 .buttonSend {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    /* background-color: #379683; */
+}
+.buttonSend:hover {
+    background-color: #05386b;
 }

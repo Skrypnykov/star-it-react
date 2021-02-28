@@ -2,10 +2,12 @@
   background-color: #5cdb95;
   padding: 5px 0;
 }
-.nav_logo {
+.nav_logo a {
   font-family: 'Reggae One', cursive;
-  font-size: 1.5em;
-  margin-right: 1.5rem;
+  font-size: 1.4em;
+  margin-right: 1.2rem;
+  color: #05386b;
+  text-decoration: none;
 }
 
 .Link {

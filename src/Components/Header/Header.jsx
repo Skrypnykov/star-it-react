@@ -13,7 +13,7 @@ const Header = () => {
         <header className={classes.nav_bg}>
             <div className="content-wrapper">
                 <Navbar collapseOnSelect expand="sm" variant="light">    
-                    <Navbar.Brand href="/" className={classes.nav_logo}>{farStar} Star It</Navbar.Brand>
+                    <Navbar.Brand className={classes.nav_logo}><NavLink to="/">{farStar} Star It</NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
