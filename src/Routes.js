@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import { HeaderComponent, FooterComponent, HomePage, PricingPage, TeamPage, FeedbackPage, DashboardPage, LoginPage, RegPage } from './Components';
 
 export default function MainRouter() {
   return (
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <HeaderComponent/>
       <Switch>
         <Route exact path="/" render = { () => <HomePage/>} />
@@ -17,6 +17,6 @@ export default function MainRouter() {
         <Route path="/join" render = { () => <RegPage/>}/>
       </Switch>
       <FooterComponent/>
-    </Router>
+    </BrowserRouter>
   );
 }
