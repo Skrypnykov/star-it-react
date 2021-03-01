@@ -24,27 +24,27 @@ const myStars = {
 
 const Rating = () => {
     return (
-        <div className={classes.rating}>
-            <Form className="content-wrapper">
-                <div className={classes.wrap}>
+        <div className={classes.wrap}>
+            <div className="content-wrapper">
+                <Form> 
                     <h3 className={classes.title}>Rating</h3>
                     <div className={classes.stars}>
                         <ReactStars {...myStars} />
                     </div>
-                </div>
-                <hr className="m-3" />
-                <div className="m-3">
-                    <Form.File id="formcheck-api-regular">
-                        <Form.File.Label className="d-flex justify-content-start pb-3">{faCamera}</Form.File.Label>
-                        <Form.File.Input />
-                    </Form.File>
-                </div>
-                <div className="d-flex justify-content-center">
-                    <Button className={classes.buttonSend} variant="primary" type="submit">
-                        Send {faSend}
-                    </Button>
-                </div>
-            </Form>
+                    <hr className="m-3" />
+                    <div className="m-3">
+                        <Form.File id="formcheck-api-regular">
+                            <Form.File.Label className="d-flex justify-content-start pb-3">{faCamera}</Form.File.Label>
+                            <Form.File.Input />
+                        </Form.File>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <Button className={classes.buttonSend} variant="primary" type="submit">
+                            Send {faSend}
+                        </Button>
+                    </div>
+                </Form>
+            </div>
         </div>
     );
 }

@@ -1,9 +1,8 @@
-.wrap {
-    /* height: 100vh; */
-}
 .cardDeck {
-    padding: 30px 20px 100px;
+    margin: 0;
+    padding: 30px 15px 50px;
+
 }
 .img {
-    max-width: 100%;
+    width: 100%;
 }

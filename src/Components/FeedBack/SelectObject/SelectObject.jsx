@@ -5,7 +5,7 @@ var timeInMs = Date.now();
 
 const SelectObject = () => {
   return (
-    <div className="content-wrapper">
+      <div className="content-wrapper">
         <div className={classes.object}>
           <div className={classes.name}>
             <p>Name: <span className={classes.data}></span></p>
@@ -20,7 +20,7 @@ const SelectObject = () => {
             <p>Time: <span className={classes.data}>{Date(timeInMs)}</span></p>
           </div>
         </div>
-    </div>
+      </div>
   );
 }
 

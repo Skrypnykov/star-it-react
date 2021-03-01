@@ -1,4 +1,5 @@
 .wrap {
+    height: calc(100vh - 110px);
     /* height: 100vh; */
 }
 .form {
@@ -20,9 +21,9 @@
 
 }
 @media (min-width: 769px) {
-    .wrap {
+    /* .wrap {
         padding: 50px;
-    }
+    } */
 }
 @media (min-width: 1281px) {
 

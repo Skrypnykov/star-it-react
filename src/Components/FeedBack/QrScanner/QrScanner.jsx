@@ -18,16 +18,14 @@ class QrScanner extends Component {
   }
   render() {
     return (
-        <div className="content-wrapper">
-          <div className={classes.wrap}>
-            <QrReader
-              delay={300}
-              onError={this.handleError}
-              onScan={this.handleScan}
-              style={{ width: '100%'}}
-            />
-            <p>{this.state.result}</p>
-          </div>
+        <div className={classes.wrap}>
+          <QrReader
+            delay={300}
+            onError={this.handleError}
+            onScan={this.handleScan}
+            style={{ width: '100%'}}
+          />
+          <p>{this.state.result}</p>
         </div>
     )
   }

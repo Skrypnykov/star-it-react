@@ -1,6 +1,6 @@
 .navBg {
   background-color: #5cdb95;
-  padding: 2.25px 0;
+  padding: 2px 0;
 }
 .navLogo a {
   font-family: 'Reggae One', cursive;
@@ -29,13 +29,16 @@
   
   @media (min-width: 376px) {
     .Link {
-      padding-top: 0;
-      font-size: 1.1em;
-      font-weight: 500;
+      /* padding-top: 0; */
+      /* font-size: 1.0em; */
+      
     } 
   }
   @media (min-width: 769px) {
-  
+    .Link {
+      font-size: 1.1em;
+      font-weight: 500;
+    } 
   }
   @media (min-width: 1281px) {
   

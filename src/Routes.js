@@ -16,7 +16,7 @@ export default function MainRouter() {
         <Route path="/login" render = { () => <LoginPage/>}/>
         <Route path="/join" render = { () => <RegPage/>}/>
       </Switch>
-      <FooterComponent/>
+      <FooterComponent />
     </Router>
   );
 }
