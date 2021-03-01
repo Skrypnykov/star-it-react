@@ -5,9 +5,9 @@ import CardDeck from 'react-bootstrap/CardDeck';
 
 const OurPricing = () => {
     return (
-        <div className="content-wrapper">
-            <div className={classes.wrap}>
-                <CardDeck>
+        <div className={classes.wrap}>
+            <div className="content-wrapper">
+                <CardDeck className={classes.cardDeck} >
                     <Card>
                         <Card.Img variant="top" src="https://miro.medium.com/max/1200/1*GZtfpHMxf03765DlVaxohg.png"/>
                         <Card.Body>

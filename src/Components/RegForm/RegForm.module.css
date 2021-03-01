@@ -1,4 +1,7 @@
 .wrap {
+    /* height: 100vh; */
+}
+.form {
     padding: 50px 20px;
 }
 .title {

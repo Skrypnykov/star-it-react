@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button';
 
 const LoginForm = () => {
     return (
-        <div className="content-wrapper">
-            <div className={classes.wrap}>
-                <Form>
+        <div className={classes.wrap}>
+            <div className="content-wrapper">
+                <Form className={classes.form}>
                     <h2 className={classes.title}>Sign in to Star It</h2>
                     <Form.Group controlId="formName" className="mb-4">
                         <Form.Label>Username or email address</Form.Label>

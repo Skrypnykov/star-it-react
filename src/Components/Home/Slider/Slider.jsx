@@ -9,21 +9,21 @@ const MySlider = () => {
       <Carousel>
         <Carousel.Item interval={4000}>
           <img
-            className=""
+            className="d-block w-100"
             src={slide1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img
-            className=""
+            className="d-block w-100"
             src={slide2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img
-            className=""
+            className="d-block w-100"
             src={slide3}
             alt="Third slide"
           />

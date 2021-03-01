@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button';
 
 const RegForm = () => {
     return (
-        <div className="content-wrapper">
-            <div className={classes.wrap}>
-                <Form>
+        <div className={classes.wrap}>
+            <div className="content-wrapper">
+                <Form className={classes.form}>
                     <h2 className={classes.title}>Create your account</h2>
                     <Form.Row>
                         <Form.Group as={Col} controlId="formName">
