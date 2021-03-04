@@ -13,15 +13,15 @@ const Header = () => {
     function rollUp() {
         let elShow = document.getElementById('responsive-navbar-nav');
         elShow.classList.remove("show");
-        let elCollapse = document.getElementById('navbar-collapsed');
-        elCollapse.classList.add("collapsed");
+        let elCollapsed = document.getElementById('navbar-collapsed');
+        elCollapsed.classList.add("collapsed");
     }
     
     return (
         <header className={classes.navBg}>
             <div className="content-wrapper">
                 <Navbar collapseOnSelect expand="sm" variant="light">    
-                    <Navbar.Brand className={classes.navLogo}><NavLink to="/">{farStar} Star It</NavLink></Navbar.Brand>
+                    <Navbar.Brand className={classes.navLogo}><NavLink to="/" onClick={rollUp}>{farStar} Star It</NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" id="navbar-collapsed" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
