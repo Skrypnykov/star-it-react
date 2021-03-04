@@ -1,5 +1,7 @@
 .wrap {
     /* height: calc(100vh - 110px); */
+    padding: 50px 0;
+    margin-bottom: 50px;
 }
 .form {
     max-width: 375px;
@@ -8,8 +10,6 @@
     border: 1px solid #eaecef;
     background-color: #f6f8fa;
     border-radius: 5px;
-    position: relative;
-    top: 50px;
 }
 
 .title {

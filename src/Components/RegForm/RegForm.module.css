@@ -11,7 +11,7 @@
     font-weight: 400;
 }
 .buttonSend {
-    margin: 1rem;
+    margin: 2rem 1rem 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -20,9 +20,9 @@
 
 }
 @media (min-width: 769px) {
-    /* .wrap {
+    .wrap {
         padding: 50px;
-    } */
+    }
 }
 @media (min-width: 1281px) {
 

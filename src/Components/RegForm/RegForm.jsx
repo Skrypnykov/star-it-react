@@ -61,12 +61,12 @@ const RegForm = () => {
                     <Form.Group id="formCheckbox">
                         <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group>
+                    <div className="d-flex justify-content-center">
+                        <Button className={classes.buttonSend} variant="primary" type="submit">
+                            Create account
+                        </Button>
+                    </div>
                 </Form>
-            </div>
-            <div className="d-flex justify-content-center">
-                <Button className={classes.buttonSend} variant="primary" type="submit">
-                    Create account
-                </Button>
             </div>
         </div>
     );
