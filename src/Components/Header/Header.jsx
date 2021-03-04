@@ -11,9 +11,9 @@ const farStar = <FontAwesomeIcon icon={faStar} />
 const Header = () => {
   
     function rollUp() {
-        let elShow = document.getElementById('responsive-navbar-nav');
+        var elShow = document.getElementById('responsive-navbar-nav');
         elShow.classList.remove("show");
-        let elCollapsed = document.getElementById('navbar-collapsed');
+        var elCollapsed = document.getElementById('navbar-collapsed');
         elCollapsed.classList.add("collapsed");
     }
     

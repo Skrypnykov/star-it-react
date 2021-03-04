@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from'./FeedBack.module.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
@@ -9,12 +9,18 @@ import SelectObject from './SelectObject/SelectObject';
 import Rating from './Rating/Rating';
 
 const CustomerFeedback = () => {
+    const [ currTab, setTab ] = useState('qrCode')
     return (
         <div className={classes.wrap}>
-            <Tabs className="justify-content-center m-3" defaultActiveKey="qrCode" id="uncontrolled-tab" variant="pills">
-                <Tab className={classes.tab} eventKey="qrCode" title="Scan QR">            
+            <Tabs
+              className="justify-content-center m-3"
+              activeKey={currTab}
+              onSelect={(key) => setTab(key)}
+              id="uncontrolled-tab" variant="pills"
+            >
+                <Tab className={classes.tab} eventKey="qrCode" title="Scan QR">
                     <SelectObject />
-                    <QRScanner />   
+                  { (currTab === 'qrCode') && <QRScanner/>}
                 </Tab>
                 <Tab className={classes.tab} eventKey="GPS" title="GPS">
                     <SelectObject />
@@ -28,5 +34,4 @@ const CustomerFeedback = () => {
         </div>
     );
 }
-
 export default CustomerFeedback;
