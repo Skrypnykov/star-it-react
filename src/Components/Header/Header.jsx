@@ -13,8 +13,8 @@ const Header = () => {
     function rollUp() {
         let elShow = document.getElementById('responsive-navbar-nav');
         elShow.classList.remove("show");
-        let elCollapse = document.getElementById('navbar-collapsed');
-        elCollapse.classList.add("collapsed");
+        let elCollapsed = document.getElementById('navbar-collapsed');
+        elCollapsed.classList.add("collapsed");
     }
     
     return (
