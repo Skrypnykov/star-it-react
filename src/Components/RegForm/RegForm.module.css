@@ -1,6 +1,5 @@
 .wrap {
-    height: calc(100vh - 110px);
-    /* height: 100vh; */
+    /* height: calc(100vh - 110px); */
 }
 .form {
     padding: 50px 20px;
