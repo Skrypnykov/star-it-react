@@ -21,7 +21,7 @@ const Header = () => {
         <header className={classes.navBg}>
             <div className="content-wrapper">
                 <Navbar collapseOnSelect expand="sm" variant="light">    
-                    <Navbar.Brand className={classes.navLogo}><NavLink to="/">{farStar} Star It</NavLink></Navbar.Brand>
+                    <Navbar.Brand className={classes.navLogo}><NavLink to="/" onClick={rollUp}>{farStar} Star It</NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" id="navbar-collapsed" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
