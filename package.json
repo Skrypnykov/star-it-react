@@ -38,10 +38,10 @@
       "react-app/jest"
     ],
     "settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
+      "react": {
+        "version": "999.999.999"
+      }
+    }
   },
   "browserslist": {
     "production": [
