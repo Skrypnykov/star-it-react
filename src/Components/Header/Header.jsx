@@ -15,7 +15,7 @@ const Header = () => {
     var elCollapsed = document.getElementById("navbar-collapsed");
     elCollapsed.classList.add("collapsed");
   }
- 
+
   return (
     <header className={classes.navBg}>
       <div className="content-wrapper">
