@@ -6,7 +6,7 @@ const JumboTron = () => {
   return (
     <div className={classes.wrap}>
       <div className="content-wrapper">
-        <Jumbotron fluid className={classes.jt}>
+        <Jumbotron className={classes.jt}>
           <p>
             Наш проект позволяет потребителю с помощью смартфона, прямо на месте
             события, оставить свой отзыв, замечание, предложение о работе
