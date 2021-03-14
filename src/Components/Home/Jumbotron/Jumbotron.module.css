@@ -1,5 +1,5 @@
 .wrap {
-  padding: 20px 10px;
+  padding: 10px 20px;
 }
 .jt {
     background-color: transparent;
@@ -9,14 +9,11 @@
 }
 .jt p {
     font-size: 1.2em;
-    text-align: center;
+    text-align: justify;
     line-height: 1.3;
 }
 
 @media (min-width: 376px) {
-    .wrap {
-        padding: 10px 20px;
-    }
     .jt p {
         font-size: 1.3em;
         text-align: justify;
