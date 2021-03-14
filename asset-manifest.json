@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/star-it-react/static/css/main.6a09d646.chunk.css",
-    "main.js": "/star-it-react/static/js/main.af8a80ec.chunk.js",
-    "main.js.map": "/star-it-react/static/js/main.af8a80ec.chunk.js.map",
-    "runtime-main.js": "/star-it-react/static/js/runtime-main.89aa5e81.js",
-    "runtime-main.js.map": "/star-it-react/static/js/runtime-main.89aa5e81.js.map",
+    "main.css": "/star-it-react/static/css/main.9c963289.chunk.css",
+    "main.js": "/star-it-react/static/js/main.c12013f5.chunk.js",
+    "main.js.map": "/star-it-react/static/js/main.c12013f5.chunk.js.map",
+    "runtime-main.js": "/star-it-react/static/js/runtime-main.b5e75e67.js",
+    "runtime-main.js.map": "/star-it-react/static/js/runtime-main.b5e75e67.js.map",
     "static/css/2.150d169a.chunk.css": "/star-it-react/static/css/2.150d169a.chunk.css",
-    "static/js/2.f0f79d72.chunk.js": "/star-it-react/static/js/2.f0f79d72.chunk.js",
-    "static/js/2.f0f79d72.chunk.js.map": "/star-it-react/static/js/2.f0f79d72.chunk.js.map",
-    "static/js/3.703d38a3.chunk.js": "/star-it-react/static/js/3.703d38a3.chunk.js",
-    "static/js/3.703d38a3.chunk.js.map": "/star-it-react/static/js/3.703d38a3.chunk.js.map",
+    "static/js/2.da0ea8ac.chunk.js": "/star-it-react/static/js/2.da0ea8ac.chunk.js",
+    "static/js/2.da0ea8ac.chunk.js.map": "/star-it-react/static/js/2.da0ea8ac.chunk.js.map",
+    "static/js/3.2fc0296e.chunk.js": "/star-it-react/static/js/3.2fc0296e.chunk.js",
+    "static/js/3.2fc0296e.chunk.js.map": "/star-it-react/static/js/3.2fc0296e.chunk.js.map",
     "index.html": "/star-it-react/index.html",
     "static/css/2.150d169a.chunk.css.map": "/star-it-react/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.6a09d646.chunk.css.map": "/star-it-react/static/css/main.6a09d646.chunk.css.map",
-    "static/js/2.f0f79d72.chunk.js.LICENSE.txt": "/star-it-react/static/js/2.f0f79d72.chunk.js.LICENSE.txt",
+    "static/css/main.9c963289.chunk.css.map": "/star-it-react/static/css/main.9c963289.chunk.css.map",
+    "static/js/2.da0ea8ac.chunk.js.LICENSE.txt": "/star-it-react/static/js/2.da0ea8ac.chunk.js.LICENSE.txt",
     "static/media/slide_1.a4e8d147.jpg": "/star-it-react/static/media/slide_1.a4e8d147.jpg",
     "static/media/slide_2.7f8618c5.jpg": "/star-it-react/static/media/slide_2.7f8618c5.jpg",
     "static/media/slide_3.d32e173b.jpg": "/star-it-react/static/media/slide_3.d32e173b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.89aa5e81.js",
+    "static/js/runtime-main.b5e75e67.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.f0f79d72.chunk.js",
-    "static/css/main.6a09d646.chunk.css",
-    "static/js/main.af8a80ec.chunk.js"
+    "static/js/2.da0ea8ac.chunk.js",
+    "static/css/main.9c963289.chunk.css",
+    "static/js/main.c12013f5.chunk.js"
   ]
 }
