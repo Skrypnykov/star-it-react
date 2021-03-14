@@ -1,8 +1,15 @@
 .wrap {
     /* height: calc(100vh - 110px); */
+    padding: 50px 0;
+    margin-bottom: 50px;
 }
 .form {
-    padding: 50px 20px;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+        border: 1px solid #eaecef;
+        background-color: #f6f8fa;
+        border-radius: 5px;
 }
 .title {
     text-align: center;
@@ -20,9 +27,7 @@
 
 }
 @media (min-width: 769px) {
-    .wrap {
-        padding: 50px;
-    }
+
 }
 @media (min-width: 1281px) {
 

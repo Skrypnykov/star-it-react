@@ -1,41 +1,41 @@
 import React from "react";
 import classes from "./Header.module.css";
-import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const farStar = <FontAwesomeIcon icon={faStar} />;
 
 const Header = () => {
-  function rollUp() {
-    var elShow = document.getElementById("responsive-navbar-nav");
-    elShow.classList.remove("show");
-    var elCollapsed = document.getElementById("navbar-collapsed");
-    elCollapsed.classList.add("collapsed");
-  }
+  let navbarToggle = React.createRef();
+  let navbarCollapse = React.createRef();
+
+  let collapseNav = () => {
+    navbarCollapse.current.classList.remove("show");
+    navbarToggle.current.classList.add("collapsed");
+  };
 
   return (
     <header className={classes.navBg}>
       <div className="content-wrapper">
         <Navbar collapseOnSelect expand="sm" variant="light">
           <Navbar.Brand className={classes.navLogo}>
-            <NavLink to="/" onClick={rollUp}>
+            <NavLink to="/" onClick={collapseNav}>
               {farStar} Star It
             </NavLink>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
-            id="navbar-collapsed"
+            ref={navbarToggle}
           />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" ref={navbarCollapse}>
             <Nav className="mr-auto">
               <NavLink
                 className={classes.Link}
                 to="/pricing"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Pricing
               </NavLink>
@@ -43,7 +43,7 @@ const Header = () => {
                 className={classes.Link}
                 to="/team"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Team
               </NavLink>
@@ -51,7 +51,7 @@ const Header = () => {
                 className={classes.Link}
                 to="/feedback"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Feedback
               </NavLink>
@@ -59,7 +59,7 @@ const Header = () => {
                 className={classes.Link}
                 to="/dashboard"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Dashboard
               </NavLink>
@@ -69,7 +69,7 @@ const Header = () => {
                 className={classes.Link}
                 to="/login"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Sign in
               </NavLink>
@@ -77,7 +77,7 @@ const Header = () => {
                 className={classes.Link}
                 to="/join"
                 activeClassName={classes.activeLink}
-                onClick={rollUp}
+                onClick={collapseNav}
               >
                 Sign up
               </NavLink>

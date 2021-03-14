@@ -1,0 +1,28 @@
+.wrap {
+  padding: 20px 10px;
+}
+.jt {
+    background-color: transparent;
+    padding: 2rem 0;
+    margin-bottom: 0;
+    
+}
+.jt p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.3;
+}
+
+@media (min-width: 376px) {
+    .wrap {
+        padding: 10px 20px;
+    }
+    .jt p {
+        font-size: 1.3em;
+        text-align: justify;
+    }
+}
+@media (min-width: 769px) {
+}
+@media (min-width: 1281px) {
+}

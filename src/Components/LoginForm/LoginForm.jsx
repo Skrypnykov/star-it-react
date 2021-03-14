@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./LoginForm.module.css";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import { Form, Button } from "react-bootstrap";
 
 const LoginForm = () => {
   return (
@@ -9,14 +8,21 @@ const LoginForm = () => {
       <div className="content-wrapper">
         <Form className={classes.form}>
           <h2 className={classes.title}>Sign in to Star It</h2>
+
           <Form.Group controlId="formName" className="mb-4">
             <Form.Label>Username or email address</Form.Label>
             <Form.Control type="text" placeholder="Username" />
           </Form.Group>
+
           <Form.Group controlId="formPassword" className="mb-4">
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
+          
+          <Form.Group id="formCheckbox">
+            <Form.Check type="checkbox" label="Remember me" />
+          </Form.Group>
+
           <div className="d-flex justify-content-center">
             <Button
               className={classes.buttonSend}

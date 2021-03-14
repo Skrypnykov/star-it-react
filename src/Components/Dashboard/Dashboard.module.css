@@ -1,14 +1,10 @@
 .wrap {
-    height: calc(100vh - 110px);
-    /* height: 100vh; */
+  padding: 20px 0;
 }
 
 @media (min-width: 376px) {
-
 }
 @media (min-width: 769px) {
-
 }
 @media (min-width: 1281px) {
-
 }
