@@ -20,9 +20,9 @@ export default function MainRouter() {
       <Switch>
         <Route exact path="/" render={() => <HomePage />} />
         <Route path="/pricing" render={() => <PricingPage />} />
-        <Route path="/team" render={() => <TeamPage />} />
         <Route path="/feedback" render={() => <FeedbackPage />} />
         <Route path="/dashboard" render={() => <DashboardPage />} />
+        <Route path="/team" render={() => <TeamPage />} />
         <Route path="/login" render={() => <LoginPage />} />
         <Route path="/join" render={() => <RegPage />} />
       </Switch>

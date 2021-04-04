@@ -41,14 +41,6 @@ const Header = () => {
               </NavLink>
               <NavLink
                 className={classes.Link}
-                to="/team"
-                activeClassName={classes.activeLink}
-                onClick={collapseNav}
-              >
-                Team
-              </NavLink>
-              <NavLink
-                className={classes.Link}
                 to="/feedback"
                 activeClassName={classes.activeLink}
                 onClick={collapseNav}
@@ -62,6 +54,14 @@ const Header = () => {
                 onClick={collapseNav}
               >
                 Dashboard
+              </NavLink>
+              <NavLink
+                className={classes.Link}
+                to="/team"
+                activeClassName={classes.activeLink}
+                onClick={collapseNav}
+              >
+                Team
               </NavLink>
             </Nav>
             <Nav>
